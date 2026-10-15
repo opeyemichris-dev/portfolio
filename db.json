@@ -1,3 +1,13 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "name": "Osiyale Opeyemi",
+      "email": "osiyaleopeyemi@gmail.com",
+      "subject": "new",
+      "message": "hjjhbcebjceikceionikoenkc hoin rf984hrf489hy0i34j frlkce89-dkl,n edoihx8lrnp94ju9bji bui hjf89ceh nfeha cff98h d,xmbfiufjfiufjkefkifddmfjfnknvrioifjiuoiuoioio",
+      "sentAt": "2026-09-08T11:00:19.891Z",
+      "id": "j5MjdRazmKE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

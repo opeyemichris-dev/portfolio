@@ -198,10 +198,12 @@
             <div class="project-card__media">
               <img :src="project.img" :alt="project.title" loading="lazy" />
               <div class="project-card__overlay">
-                <a href="#" class="project-card__action" aria-label="View live site">
+                <a :href="project.liveUrl" target="_blank" rel="noopener noreferrer"
+                   class="project-card__action" aria-label="View live site">
                   <i class="bi bi-box-arrow-up-right"></i> Live
                 </a>
-                <a href="#" class="project-card__action project-card__action--ghost" aria-label="View source code">
+                <a :href="project.githubUrl" target="_blank" rel="noopener noreferrer"
+                   class="project-card__action project-card__action--ghost" aria-label="View source code">
                   <i class="bi bi-github"></i> Code
                 </a>
               </div>
@@ -512,6 +514,8 @@ const projects = [
     description: "A modern, responsive portfolio showcasing design and coding expertise with smooth animations.",
     tags: ["Vue 3", "CSS", "UI Design"],
     featured: true,
+    liveUrl: "#",
+    githubUrl: "#",
   },
   {
     id: 2,
@@ -520,6 +524,8 @@ const projects = [
     description: "An elegant online store with full cart, checkout flow, and payment integration.",
     tags: ["JavaScript", "UX", "Payments"],
     featured: false,
+    liveUrl: "https://e-commerce-store-gadgets.vercel.app/",
+    githubUrl: "https://github.com/opeyemichris-dev/e-commerce-store-gadgets.git",
   },
   {
     id: 3,
@@ -528,6 +534,8 @@ const projects = [
     description: "A responsive e-learning platform with interactive UI, progress tracking, and accessible navigation.",
     tags: ["Vue 3", "Accessibility", "UI Design"],
     featured: false,
+    liveUrl: "https://test-card-chi.vercel.app/",
+    githubUrl: "https://github.com/opeyemichris-dev/test-card.git",
   },
 ];
 
