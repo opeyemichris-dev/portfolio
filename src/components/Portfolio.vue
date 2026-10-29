@@ -514,8 +514,8 @@ const projects = [
     description: "A modern, responsive developer portfolio with stats, timeline, animated counters and smooth scroll interactions.",
     tags: ["Vue 3", "CSS", "UI Design"],
     featured: true,
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://portfolio-business-seven.vercel.app/",
+    githubUrl: "https://github.com/opeyemichris-dev/portfolio-business.git",
   },
   {
     id: 2,
@@ -576,6 +576,16 @@ const projects = [
     featured: false,
     liveUrl: "https://quickbite-one-blue.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/quickbite.git",
+  },
+  {
+    id: 8,
+    img: "/img/hospital.jpeg",
+    title: "Hospital Appointment System",
+    description: "A comprehensive hospital management solution with patient records, appointment scheduling, and billing.",
+    tags: ["Vue 3", "Node.js", "UX"],
+    featured: false,
+    liveUrl: "hospital-appointment-liard.vercel.app",
+    githubUrl: "https://github.com/opeyemichris-dev/Hospital-appointment-.git",
   },
 ];
 
