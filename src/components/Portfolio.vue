@@ -66,7 +66,7 @@
           <div class="hero__avatar-ring" aria-hidden="true"></div>
           <div class="hero__avatar-ring hero__avatar-ring--2" aria-hidden="true"></div>
           <div class="hero__frame">
-            <img :src="'/img/co5.JPG'" alt="Portrait of Osiyale Opeyemi" />
+            <img :src="'/img/hero-img.png'" alt="Portrait of Osiyale Opeyemi" />
           </div>
           <!-- floating tech badges -->
           <div class="hero__badge-float hero__badge-float--vue">
@@ -122,10 +122,10 @@
           <div class="about__actions">
             <a href="#contact" class="btn btn--primary">Hire me <i class="bi bi-arrow-right"></i></a>
             <div class="social-icons">
-              <a href="#" class="social-link" title="GitHub" aria-label="GitHub"><i class="bi bi-github"></i></a>
-              <a href="#" class="social-link" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-              <a href="#" class="social-link" title="Twitter" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
-              <a href="#" class="social-link" title="Instagram" aria-label="Instagram"><i
+              <a href="https://github.com/opeyemichris-dev" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="https://www.linkedin.com/in/osiyale-opeyemi-142a29447" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://x.com/opeyemi_devops" target="_blank" rel="noopener noreferrer" class="social-link" title="Twitter/X" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.instagram.com/babacodervillage" target="_blank" rel="noopener noreferrer" class="social-link" title="Instagram" aria-label="Instagram"><i
                   class="bi bi-instagram"></i></a>
             </div>
           </div>
@@ -189,7 +189,7 @@
       <div class="section-inner">
         <div class="section-head" data-reveal>
           <p class="eyebrow">selected work</p>
-          <h2 class="section-title">Recent projects</h2>
+          <h2 class="section-title">Recent projects <span class="section-title__count">07</span></h2>
         </div>
 
         <div class="project-grid">
@@ -378,10 +378,10 @@
           </div>
           <p>Crafting innovative web solutions and sleek digital experiences that help brands stand out and grow.</p>
           <div class="social-icons social-icons--footer">
-            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
-            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/osiyale-opeyemi-142a29447" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/opeyemichris-dev" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://x.com/opeyemi_devops" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/babacodervillage" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
             <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
           </div>
         </div>
@@ -511,7 +511,7 @@ const projects = [
     id: 1,
     img: "/img/1.jpg",
     title: "Portfolio Website",
-    description: "A modern, responsive portfolio showcasing design and coding expertise with smooth animations.",
+    description: "A modern, responsive developer portfolio with stats, timeline, animated counters and smooth scroll interactions.",
     tags: ["Vue 3", "CSS", "UI Design"],
     featured: true,
     liveUrl: "#",
@@ -520,8 +520,8 @@ const projects = [
   {
     id: 2,
     img: "/img/2.jpg",
-    title: "E-Commerce Store",
-    description: "An elegant online store with full cart, checkout flow, and payment integration.",
+    title: "E-Commerce Store (Gadgets)",
+    description: "A full gadget store with product listings, cart system, checkout flow and payment integration.",
     tags: ["JavaScript", "UX", "Payments"],
     featured: false,
     liveUrl: "https://e-commerce-store-gadgets.vercel.app/",
@@ -536,6 +536,46 @@ const projects = [
     featured: false,
     liveUrl: "https://test-card-chi.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/test-card.git",
+  },
+  {
+    id: 4,
+    img: "/img/cooking.png",
+    title: "Cooking Guide",
+    description: "A recipe and cooking guide app with step-by-step instructions, ingredient lists and meal categories.",
+    tags: ["JavaScript", "Vue 3", "CSS"],
+    featured: false,
+    liveUrl: "https://cooking-guide-xi.vercel.app/",
+    githubUrl: "https://github.com/opeyemichris-dev/cooking-guide.git",
+  },
+  {
+    id: 5,
+    img: "/img/planook.png",
+    title: "PlayNook",
+    description: "A mini game selection app with a curated collection of browser games and a clean, playful UI.",
+    tags: ["JavaScript", "CSS", "Games"],
+    featured: false,
+    liveUrl: "https://playnookhub.vercel.app/",
+    githubUrl: "https://github.com/opeyemichris-dev/playnook.git",
+  },
+  {
+    id: 6,
+    img: "/img/style.png",
+    title: "StyleHub",
+    description: "An e-commerce store for men's and women's clothing, accessories and perfumes with a sleek shopping experience.",
+    tags: ["JavaScript", "E-Commerce", "CSS"],
+    featured: true,
+    liveUrl: "https://style-hub-inky.vercel.app/",
+    githubUrl: "https://github.com/opeyemichris-dev/StyleHub.git",
+  },
+  {
+    id: 7,
+    img: "/img/quickbite.jpeg",
+    title: "QuickBite",
+    description: "A fast food ordering app with menu browsing, cart management and a smooth order placement flow.",
+    tags: ["Vue 3", "Node.js", "UX"],
+    featured: false,
+    liveUrl: "https://quickbite-one-blue.vercel.app/",
+    githubUrl: "https://github.com/opeyemichris-dev/quickbite.git",
   },
 ];
 
@@ -777,6 +817,23 @@ onBeforeUnmount(() => {
   font-size: clamp(1.9rem, 3.4vw, 2.8rem);
   font-weight: 700;
   line-height: 1.1;
+}
+
+.section-title__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--indigo);
+  background: rgba(108, 92, 231, 0.1);
+  border: 1px solid rgba(108, 92, 231, 0.25);
+  padding: 3px 10px;
+  border-radius: 100px;
+  vertical-align: middle;
+  margin-left: 12px;
+  letter-spacing: 0.04em;
 }
 
 .section-head {
@@ -1210,19 +1267,21 @@ onBeforeUnmount(() => {
   align-items: center;
 }
 
+/* (fade overlay removed) */
+
 .hero__avatar-ring {
   position: absolute;
   border-radius: 50%;
-  border: 1.5px solid rgba(108, 92, 231, 0.4);
-  width: 340px;
-  height: 340px;
+  border: 1.5px solid rgba(108, 92, 231, 0.25);
+  width: 380px;
+  height: 380px;
   animation: ringPulse 4s ease-in-out infinite;
 }
 
 .hero__avatar-ring--2 {
-  width: 400px;
-  height: 400px;
-  border-color: rgba(0, 201, 167, 0.2);
+  width: 440px;
+  height: 440px;
+  border-color: rgba(0, 201, 167, 0.15);
   animation-delay: -2s;
 }
 
@@ -1242,19 +1301,22 @@ onBeforeUnmount(() => {
 
 .hero__frame {
   position: relative;
-  width: 260px;
-  height: 300px;
+  width: 380px;
+  height: 380px;
   border-radius: 24px;
-  overflow: hidden;
-  border: 3px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+  overflow: visible;
+  border: none;
+  box-shadow: none;
+  background: transparent;
 }
 
 .hero__frame img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  filter: drop-shadow(0 24px 60px rgba(108, 92, 231, 0.4));
 }
 
 .hero__badge-float {
@@ -1695,7 +1757,7 @@ onBeforeUnmount(() => {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 28px;
 }
 
@@ -2468,59 +2530,61 @@ a.contact__info-item:hover {
 }
 
 @media (max-width: 900px) {
-  .hero__grid {
-    grid-template-columns: 1fr;
-    text-align: center;
+
+  /* ── Hero: text-first, left-aligned split on tablet ── */
+  .hero {
+    padding: 120px 32px 80px;
   }
+
+  .hero__grid {
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    gap: 24px;
+    align-items: center;
+  }
+
+  .hero__visual {
+    order: 1; /* image stays RIGHT on tablet */
+  }
+
+  .hero__frame {
+    width: 260px;
+    height: 260px;
+  }
+
+  .hero__avatar-ring     { width: 260px; height: 260px; }
+  .hero__avatar-ring--2  { width: 310px; height: 310px; }
 
   .hero__desc,
   .hero__cta,
   .hero__stats {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .hero__cta,
-  .hero__stats {
-    justify-content: center;
-  }
+  .hero__stats { justify-content: flex-start; }
 
-  .hero__visual {
-    order: -1;
-    margin-bottom: 20px;
-  }
+  .hero__badge-float--figma { display: none; }
 
-  .hero__badge-float--figma {
-    display: none;
-  }
-
-  .about__grid {
-    grid-template-columns: 1fr;
-    gap: 48px;
-  }
-
-  .contact__grid {
-    grid-template-columns: 1fr;
-  }
+  .about__grid    { grid-template-columns: 1fr; gap: 48px; }
+  .contact__grid  { grid-template-columns: 1fr; }
 
   .project-grid,
   .service-grid,
-  .testi-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .testi-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 720px) {
 
+  /* ── Nav ── */
   .nav {
     padding: 10px 12px 10px 16px;
     gap: 12px;
   }
 
   .nav__links,
-  .nav__status {
-    display: none;
-  }
+  .nav__status { display: none; }
 
   .nav__links--open {
     display: flex;
@@ -2536,44 +2600,122 @@ a.contact__info-item:hover {
     backdrop-filter: blur(20px);
   }
 
-  .nav__toggle {
-    display: flex;
-  }
+  .nav__toggle { display: flex; }
 
+  /* ── Other sections ── */
   .project-grid,
   .service-grid,
-  .testi-grid {
-    grid-template-columns: 1fr;
+  .testi-grid { grid-template-columns: 1fr; }
+
+  .stats-grid   { grid-template-columns: 1fr 1fr; }
+  .field-row    { grid-template-columns: 1fr; }
+  .footer__grid { grid-template-columns: 1fr; }
+
+  .footer__bottom { flex-direction: column; text-align: center; }
+
+  .section-inner { padding: 0 20px; }
+
+  /* ── Hero: text-first, LEFT-aligned, illustration secondary ── */
+  .hero {
+    padding: 100px 22px 56px;
+    justify-content: center;
   }
 
-  .stats-grid {
-    grid-template-columns: 1fr 1fr;
+  .hero__grid {
+    grid-template-columns: 1fr;  /* single column */
+    text-align: left;
+    gap: 0;
+    align-items: start;
   }
 
-  .field-row {
-    grid-template-columns: 1fr;
+  /* illustration goes BELOW the text */
+  .hero__visual {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
   }
 
-  .footer__grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer__bottom {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .section-inner {
-    padding: 0 20px;
-  }
-
-  .hero__badge-float {
-    display: none;
+  .hero__frame {
+    width: 200px;
+    height: 200px;
   }
 
   .hero__avatar-ring,
-  .hero__avatar-ring--2 {
-    display: none;
+  .hero__avatar-ring--2 { display: none; }
+
+  .hero__badge-float { display: none; }
+
+  /* text block: left-aligned */
+  .hero__content {
+    text-align: left;
+  }
+
+  .hero__badge {
+    margin-bottom: 16px;
+  }
+
+  .hero__name {
+    font-size: clamp(2.4rem, 11vw, 3.2rem);
+    margin-bottom: 10px;
+  }
+
+  .hero__role {
+    font-size: 0.95rem;
+    margin-bottom: 14px;
+  }
+
+  .hero__desc {
+    font-size: 0.93rem;
+    line-height: 1.7;
+    margin-bottom: 24px;
+    max-width: 100%;
+  }
+
+  .hero__cta {
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+
+  .hero__stats {
+    justify-content: flex-start;
+    gap: 24px;
+    padding-top: 20px;
+  }
+
+  .hero__stat-value { font-size: 1.3rem; }
+
+  .hero__scroll { display: none; }
+}
+
+/* ── Extra-narrow phones (≤390px) ── */
+@media (max-width: 390px) {
+  .hero {
+    padding: 90px 18px 48px;
+  }
+
+  .hero__name {
+    font-size: clamp(2rem, 12vw, 2.6rem);
+  }
+
+  .hero__frame {
+    width: 170px;
+    height: 170px;
+  }
+
+  .hero__cta .btn {
+    font-size: 0.78rem;
+    padding: 11px 18px;
+  }
+
+  .hero__stats {
+    gap: 16px;
+  }
+
+  .hero__stat-value {
+    font-size: 1.1rem;
   }
 }
 
