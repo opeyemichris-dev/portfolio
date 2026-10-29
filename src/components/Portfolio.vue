@@ -584,7 +584,7 @@ const projects = [
     description: "A comprehensive hospital management solution with patient records, appointment scheduling, and billing.",
     tags: ["Vue 3", "Node.js", "UX"],
     featured: false,
-    liveUrl: "hospital-appointment-liard.vercel.app",
+    liveUrl: "https://hospital-appointment-liard.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/Hospital-appointment-.git",
   },
 ];
