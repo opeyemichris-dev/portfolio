@@ -189,7 +189,7 @@
       <div class="section-inner">
         <div class="section-head" data-reveal>
           <p class="eyebrow">selected work</p>
-          <h2 class="section-title">Recent projects <span class="section-title__count">07</span></h2>
+          <h2 class="section-title">Recent projects <span class="section-title__count">08</span></h2>
         </div>
 
         <div class="project-grid">
@@ -512,7 +512,7 @@ const projects = [
     img: "/img/1.jpg",
     title: "Portfolio Website",
     description: "A modern, responsive developer portfolio with stats, timeline, animated counters and smooth scroll interactions.",
-    tags: ["Vue 3", "CSS", "UI Design"],
+    tags: ["Vue 3", "Vue Router", "Bootstrap 5"],
     featured: true,
     liveUrl: "https://portfolio-business-seven.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/portfolio-business.git",
@@ -522,7 +522,7 @@ const projects = [
     img: "/img/2.jpg",
     title: "E-Commerce Store (Gadgets)",
     description: "A full gadget store with product listings, cart system, checkout flow and payment integration.",
-    tags: ["JavaScript", "UX", "Payments"],
+    tags: ["Vue 3", "Bootstrap 5", "JSON Server"],
     featured: false,
     liveUrl: "https://e-commerce-store-gadgets.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/e-commerce-store-gadgets.git",
@@ -532,7 +532,7 @@ const projects = [
     img: "/img/3.jpg",
     title: "Learning Platform",
     description: "A responsive e-learning platform with interactive UI, progress tracking, and accessible navigation.",
-    tags: ["Vue 3", "Accessibility", "UI Design"],
+    tags: ["Vue 3", "Vue Router", "CSS"],
     featured: false,
     liveUrl: "https://test-card-chi.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/test-card.git",
@@ -542,7 +542,7 @@ const projects = [
     img: "/img/cooking.png",
     title: "Cooking Guide",
     description: "A recipe and cooking guide app with step-by-step instructions, ingredient lists and meal categories.",
-    tags: ["JavaScript", "Vue 3", "CSS"],
+    tags: ["Vue 3", "Pinia", "PHP"],
     featured: false,
     liveUrl: "https://cooking-guide-xi.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/cooking-guide.git",
@@ -552,7 +552,7 @@ const projects = [
     img: "/img/planook.png",
     title: "PlayNook",
     description: "A mini game selection app with a curated collection of browser games and a clean, playful UI.",
-    tags: ["JavaScript", "CSS", "Games"],
+    tags: ["Vue 3", "Vue Router", "Vite"],
     featured: false,
     liveUrl: "https://playnookhub.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/playnook.git",
@@ -562,7 +562,7 @@ const projects = [
     img: "/img/style.png",
     title: "StyleHub",
     description: "An e-commerce store for men's and women's clothing, accessories and perfumes with a sleek shopping experience.",
-    tags: ["JavaScript", "E-Commerce", "CSS"],
+    tags: ["Vue 3", "Axios", "JSON Server"],
     featured: true,
     liveUrl: "https://style-hub-inky.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/StyleHub.git",
@@ -572,7 +572,7 @@ const projects = [
     img: "/img/quickbite.jpeg",
     title: "QuickBite",
     description: "A fast food ordering app with menu browsing, cart management and a smooth order placement flow.",
-    tags: ["Vue 3", "Node.js", "UX"],
+    tags: ["Vue 3", "Pinia", "Bootstrap 5"],
     featured: false,
     liveUrl: "https://quickbite-one-blue.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/quickbite.git",
@@ -582,7 +582,7 @@ const projects = [
     img: "/img/hospital.jpeg",
     title: "Hospital Appointment System",
     description: "A comprehensive hospital management solution with patient records, appointment scheduling, and billing.",
-    tags: ["Vue 3", "Node.js", "UX"],
+    tags: ["Vue 3", "Vue Router", "Lucide Icons"],
     featured: false,
     liveUrl: "https://hospital-appointment-liard.vercel.app/",
     githubUrl: "https://github.com/opeyemichris-dev/Hospital-appointment-.git",
